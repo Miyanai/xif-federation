@@ -7,4 +7,4 @@ The app also creates a report for users
 
 
 
-![inventory splashscreen](https:
+![inventory splashscreen](https://user-images.githubusercontent.com/66275437/208268907
