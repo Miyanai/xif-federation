@@ -14,4 +14,6 @@
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
-#-keepattributes SourceFile,Li
+#-keepattributes SourceFile,LineNumberTable
+
+# If you keep the line number informa
