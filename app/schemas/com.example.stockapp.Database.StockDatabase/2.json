@@ -5,4 +5,5 @@
     "identityHash": "1935fba897168dfff6e77589e14a4382",
     "entities": [
       {
-        "
+        "tableName": "Stock",
+        "createSql": "CREA
