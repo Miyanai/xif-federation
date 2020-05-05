@@ -6,4 +6,4 @@
     "entities": [
       {
         "tableName": "Stock",
-        "createSql": "CREA
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMAR
