@@ -10,4 +10,5 @@
         "fields": [
           {
             "fieldPath": "id",
-           
+            "columnName": "id",
+            "affinity": "INTE
