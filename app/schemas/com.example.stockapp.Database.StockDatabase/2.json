@@ -12,4 +12,7 @@
             "fieldPath": "id",
             "columnName": "id",
             "affinity": "INTEGER",
-            "notNull": tru
+            "notNull": true
+          },
+          {
+            "field
