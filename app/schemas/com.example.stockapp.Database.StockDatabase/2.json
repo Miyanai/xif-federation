@@ -22,4 +22,6 @@
           },
           {
             "fieldPath": "stockName",
-            "col
+            "columnName": "stockName",
+            "affinity": "TEXT",
+   
