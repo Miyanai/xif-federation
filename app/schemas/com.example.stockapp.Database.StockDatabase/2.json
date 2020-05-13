@@ -11,4 +11,5 @@
           {
             "fieldPath": "id",
             "columnName": "id",
-            "affinity": "INTE
+            "affinity": "INTEGER",
+            "notNull": tru
