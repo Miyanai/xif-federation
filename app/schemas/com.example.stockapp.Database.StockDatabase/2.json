@@ -27,4 +27,5 @@
             "notNull": true
           },
           {
-    
+            "fieldPath": "barcode",
+            "colum
