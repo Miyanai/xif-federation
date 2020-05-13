@@ -21,4 +21,5 @@
             "notNull": true
           },
           {
-        
+            "fieldPath": "stockName",
+            "col
