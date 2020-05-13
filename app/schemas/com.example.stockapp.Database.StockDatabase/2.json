@@ -15,4 +15,5 @@
             "notNull": true
           },
           {
-            "field
+            "fieldPath": "stockLocation",
+            "columnName": "s
