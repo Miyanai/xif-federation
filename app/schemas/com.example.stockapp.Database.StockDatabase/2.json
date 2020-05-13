@@ -16,4 +16,6 @@
           },
           {
             "fieldPath": "stockLocation",
-            "columnName": "s
+            "columnName": "stockLocation",
+            "affinity": "TEXT",
+          
