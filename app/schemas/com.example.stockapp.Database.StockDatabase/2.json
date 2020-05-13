@@ -24,4 +24,7 @@
             "fieldPath": "stockName",
             "columnName": "stockName",
             "affinity": "TEXT",
-   
+            "notNull": true
+          },
+          {
+    
