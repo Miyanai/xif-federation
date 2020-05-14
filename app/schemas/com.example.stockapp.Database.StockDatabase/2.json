@@ -28,4 +28,6 @@
           },
           {
             "fieldPath": "barcode",
-            "colum
+            "columnName": "barcode",
+            "affinity": "TEXT",
+  
