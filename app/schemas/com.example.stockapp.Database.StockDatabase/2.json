@@ -39,4 +39,8 @@
             "id"
           ]
         },
-        "indices":
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+  
