@@ -33,3 +33,5 @@
             "notNull": true
           }
         ],
+        "primaryKey": {
+          "autoGene
