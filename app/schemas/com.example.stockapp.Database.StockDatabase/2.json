@@ -36,4 +36,7 @@
         "primaryKey": {
           "autoGenerate": true,
           "columnNames": [
-       
+            "id"
+          ]
+        },
+        "indices":
