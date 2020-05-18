@@ -34,4 +34,6 @@
           }
         ],
         "primaryKey": {
-          "autoGene
+          "autoGenerate": true,
+          "columnNames": [
+       
