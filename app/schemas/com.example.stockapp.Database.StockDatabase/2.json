@@ -44,4 +44,5 @@
       }
     ],
     "views": [],
-    "setupQueries": 
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_maste
