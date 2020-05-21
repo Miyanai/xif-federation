@@ -1,1 +1,4 @@
-package com.example.stockapp.Da
+package com.example.stockapp.Database
+
+import androidx.room.Entity
+i
