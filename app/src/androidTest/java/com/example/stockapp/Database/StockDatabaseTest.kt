@@ -16,4 +16,5 @@ import java.io.IOException
 @RunWith(AndroidJUnit4::class)
 class StockDatabaseTest {
 
-    private lateinit var stockDao
+    private lateinit var stockDao: StockDao
+    private lateinit var db: StockDataba
