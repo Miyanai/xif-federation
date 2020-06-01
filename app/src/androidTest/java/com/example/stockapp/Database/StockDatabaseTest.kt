@@ -17,4 +17,8 @@ import java.io.IOException
 class StockDatabaseTest {
 
     private lateinit var stockDao: StockDao
-    private lateinit var db: StockDataba
+    private lateinit var db: StockDatabase
+
+    @Before
+    fun setUp() {
+        val context 
