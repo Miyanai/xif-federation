@@ -21,4 +21,4 @@ class StockDatabaseTest {
 
     @Before
     fun setUp() {
-        val context 
+        val context = InstrumentationRegistry.getInstrumentation().
