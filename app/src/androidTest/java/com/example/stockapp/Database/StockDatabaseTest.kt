@@ -23,4 +23,4 @@ class StockDatabaseTest {
     fun setUp() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
 
-        db = Room.inMemoryDataba
+        db = Room.inMemoryDatabaseBuilder(context, StockDatabase::class.
