@@ -25,4 +25,8 @@ class StockDatabaseTest {
 
         db = Room.inMemoryDatabaseBuilder(context, StockDatabase::class.java)
             .allowMainThreadQueries()
-           
+            .build()
+        stockDao = db.stockDao()
+    }
+
+  
