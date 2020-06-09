@@ -29,4 +29,6 @@ class StockDatabaseTest {
         stockDao = db.stockDao()
     }
 
-  
+    @After
+    @kotlin.jvm.Throws(IOException::class)
+    f
