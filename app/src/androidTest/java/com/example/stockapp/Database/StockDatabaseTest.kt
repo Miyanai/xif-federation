@@ -35,4 +35,7 @@ class StockDatabaseTest {
         db.close()
     }
 
-    @
+    @Test
+    fun insertData() = runBlocking {
+
+        val
