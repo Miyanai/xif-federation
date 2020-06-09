@@ -31,4 +31,8 @@ class StockDatabaseTest {
 
     @After
     @kotlin.jvm.Throws(IOException::class)
-    f
+    fun tearDown() {
+        db.close()
+    }
+
+    @
