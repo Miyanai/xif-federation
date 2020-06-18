@@ -38,4 +38,6 @@ class StockDatabaseTest {
     @Test
     fun insertData() = runBlocking {
 
-        val entity = StockEntity(stockLocation = "Bean Location", 
+        val entity = StockEntity(stockLocation = "Bean Location", stockName = "Beans can", barcode = "codes")
+
+      
