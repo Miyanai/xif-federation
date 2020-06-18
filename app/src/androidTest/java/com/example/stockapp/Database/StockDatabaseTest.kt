@@ -38,4 +38,4 @@ class StockDatabaseTest {
     @Test
     fun insertData() = runBlocking {
 
-        val
+        val entity = StockEntity(stockLocation = "Bean Location", 
