@@ -40,4 +40,6 @@ class StockDatabaseTest {
 
         val entity = StockEntity(stockLocation = "Bean Location", stockName = "Beans can", barcode = "codes")
 
-      
+       stockDao.insertStock(entity)
+
+        assertEq
