@@ -42,4 +42,6 @@ class StockDatabaseTest {
 
        stockDao.insertStock(entity)
 
-        assertEq
+        assertEquals(entity.stockLocation, "Bean Location")
+    }
+}
