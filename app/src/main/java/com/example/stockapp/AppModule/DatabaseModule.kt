@@ -17,4 +17,8 @@ object DatabaseModule {
 
 
     @Volatile
-    priva
+    private var INSTANCE: StockDatabase? = null
+
+
+     @Singleton
+    
