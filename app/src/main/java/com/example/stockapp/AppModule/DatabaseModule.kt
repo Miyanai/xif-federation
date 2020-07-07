@@ -21,4 +21,5 @@ object DatabaseModule {
 
 
      @Singleton
-    
+     @Provides
+    fun getDatabase(app: Application)
