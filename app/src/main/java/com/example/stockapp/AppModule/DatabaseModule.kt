@@ -5,4 +5,6 @@ import androidx.room.Room
 import androidx.room.migration.Migration
 import com.example.stockapp.Database.MIGRATION_1_2
 import com.example.stockapp.Database.StockDatabase
-import dagge
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.Ins
