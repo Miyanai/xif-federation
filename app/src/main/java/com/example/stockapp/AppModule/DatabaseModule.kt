@@ -12,4 +12,9 @@ import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
 @Module
-@InstallIn(SingletonCompon
+@InstallIn(SingletonComponent::class)
+object DatabaseModule {
+
+
+    @Volatile
+    priva
