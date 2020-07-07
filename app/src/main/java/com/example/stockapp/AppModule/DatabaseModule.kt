@@ -7,4 +7,6 @@ import com.example.stockapp.Database.MIGRATION_1_2
 import com.example.stockapp.Database.StockDatabase
 import dagger.Module
 import dagger.Provides
-import dagger.hilt.Ins
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
+import ja
