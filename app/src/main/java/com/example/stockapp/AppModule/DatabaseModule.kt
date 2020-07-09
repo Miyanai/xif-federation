@@ -22,4 +22,7 @@ object DatabaseModule {
 
      @Singleton
      @Provides
-    fun getDatabase(app: Application)
+    fun getDatabase(app: Application) : StockDatabase{
+
+
+        val instance = INSTANCE
