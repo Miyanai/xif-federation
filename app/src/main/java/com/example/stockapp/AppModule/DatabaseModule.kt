@@ -27,4 +27,8 @@ object DatabaseModule {
 
         val instance = INSTANCE
 
-        if (instance != null) return instan
+        if (instance != null) return instance
+
+        synchronized(this){
+
+            
