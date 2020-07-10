@@ -26,3 +26,5 @@ object DatabaseModule {
 
 
         val instance = INSTANCE
+
+        if (instance != null) return instan
