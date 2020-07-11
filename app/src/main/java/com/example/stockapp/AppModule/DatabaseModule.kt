@@ -31,4 +31,5 @@ object DatabaseModule {
 
         synchronized(this){
 
-            
+            val instanceofDatabase = Room.databaseBuilder(
+ 
