@@ -36,4 +36,6 @@ object DatabaseModule {
                 "Stock_Database"
             ).addMigrations(MIGRATION_1_2,).allowMainThreadQueries().build()
 
-            INSTANCE = i
+            INSTANCE = instanceofDatabase
+
+            return instanceo
