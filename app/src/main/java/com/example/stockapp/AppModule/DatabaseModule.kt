@@ -34,4 +34,6 @@ object DatabaseModule {
             val instanceofDatabase = Room.databaseBuilder(
                 app.applicationContext, StockDatabase::class.java,
                 "Stock_Database"
-            ).addMigrations(MIGRATION_1_2,).allowMainThre
+            ).addMigrations(MIGRATION_1_2,).allowMainThreadQueries().build()
+
+            INSTANCE = i
