@@ -38,4 +38,11 @@ object DatabaseModule {
 
             INSTANCE = instanceofDatabase
 
-            return instanceo
+            return instanceofDatabase;
+        }
+
+
+
+    }
+
+}
