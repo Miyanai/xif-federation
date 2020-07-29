@@ -6,3 +6,5 @@ import com.example.stockapp.Repository.StockRepository
 import com.example.stockapp.Repository.StockRepositoryList
 import dagger.Module
 import dagger.Provides
+import dagger.hilt.InstallIn
+import da
