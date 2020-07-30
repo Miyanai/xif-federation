@@ -7,4 +7,5 @@ import com.example.stockapp.Repository.StockRepositoryList
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import da
+import dagger.hilt.components.SingletonComponent
+import javax.inject.Singl
