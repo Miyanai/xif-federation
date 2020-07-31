@@ -17,4 +17,6 @@ object RepositoryModule {
 
     @Singleton
     @Provides
-    fun getRepo(stockDatabase: StockData
+    fun getRepo(stockDatabase: StockDatabase): StockRepository{
+
+        return StockRepositoryL
