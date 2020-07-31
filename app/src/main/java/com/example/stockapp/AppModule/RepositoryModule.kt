@@ -16,4 +16,5 @@ object RepositoryModule {
 
 
     @Singleton
- 
+    @Provides
+    fun getRepo(stockDatabase: StockData
