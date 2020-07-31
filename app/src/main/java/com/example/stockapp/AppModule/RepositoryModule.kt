@@ -19,4 +19,9 @@ object RepositoryModule {
     @Provides
     fun getRepo(stockDatabase: StockDatabase): StockRepository{
 
-        return StockRepositoryL
+        return StockRepositoryList(stockDatabase)
+
+
+
+    }
+}
