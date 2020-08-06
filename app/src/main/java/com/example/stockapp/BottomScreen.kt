@@ -12,4 +12,5 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.co
+import androidx.compose.ui.graphics.Color
+import androidx.compos
