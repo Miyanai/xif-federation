@@ -7,4 +7,6 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.Scaffol
+import androidx.compose.material.Scaffold
+import androidx.compose.material.Text
+import androidx.comp
