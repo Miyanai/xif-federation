@@ -5,4 +5,5 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.Image
-import a
+import androidx.compose.foundation.background
+import androidx.compose.foundati
