@@ -23,4 +23,5 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.
+import androidx.navigation.compose.rememberNavController
+import com.example.stocka
