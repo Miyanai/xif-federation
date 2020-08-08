@@ -21,4 +21,5 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewmo
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.naviga
