@@ -26,4 +26,5 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.stockapp.Navigation.BottomNavScreen
 import com.example.stockapp.Navigation.Nav
-import com.example.stockapp.ViewMod
+import com.example.stockapp.ViewModel.StockViewModel
+import com.example.stockapp.u
