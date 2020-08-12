@@ -27,4 +27,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.stockapp.Navigation.BottomNavScreen
 import com.example.stockapp.Navigation.Nav
 import com.example.stockapp.ViewModel.StockViewModel
-import com.example.stockapp.u
+import com.example.stockapp.ui.theme.Scan
+import com.example.stockapp.ui.theme.StockAppTheme
+i
