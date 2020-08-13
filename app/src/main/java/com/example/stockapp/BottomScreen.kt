@@ -29,4 +29,5 @@ import com.example.stockapp.Navigation.Nav
 import com.example.stockapp.ViewModel.StockViewModel
 import com.example.stockapp.ui.theme.Scan
 import com.example.stockapp.ui.theme.StockAppTheme
-i
+import com.example.stockapp.ui.theme.ui.BarCodeScreen
+imp
