@@ -31,4 +31,8 @@ import com.example.stockapp.ui.theme.Scan
 import com.example.stockapp.ui.theme.StockAppTheme
 import com.example.stockapp.ui.theme.ui.BarCodeScreen
 import dagger.hilt.android.AndroidEntryPoint
-import kotl
+import kotlinx.coroutines.delay
+
+
+@AndroidEntryPoint
+cl
