@@ -35,4 +35,5 @@ import kotlinx.coroutines.delay
 
 
 @AndroidEntryPoint
-cl
+class BottomScreen : ComponentActivity() {
+    ove
