@@ -36,4 +36,4 @@ import kotlinx.coroutines.delay
 
 @AndroidEntryPoint
 class BottomScreen : ComponentActivity() {
-    ove
+    override fun onCreate(savedInstanceState: Bundle?) 
