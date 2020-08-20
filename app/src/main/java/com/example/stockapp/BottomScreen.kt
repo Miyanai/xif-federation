@@ -37,4 +37,9 @@ import kotlinx.coroutines.delay
 @AndroidEntryPoint
 class BottomScreen : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceS
+        super.onCreate(savedInstanceState)
+
+
+
+
+        val LocalActivity = staticCompositi
