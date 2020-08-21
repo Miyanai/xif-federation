@@ -42,4 +42,5 @@ class BottomScreen : ComponentActivity() {
 
 
 
-        val LocalActivity = staticCompositi
+        val LocalActivity = staticCompositionLocalOf<ComponentActivity> {
+            error("Loc
