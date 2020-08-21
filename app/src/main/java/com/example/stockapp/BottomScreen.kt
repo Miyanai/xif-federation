@@ -48,3 +48,10 @@ class BottomScreen : ComponentActivity() {
 
         setContent {
 
+
+
+            StockAppTheme {
+
+
+
+             val navC
