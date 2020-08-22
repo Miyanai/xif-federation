@@ -60,4 +60,6 @@ class BottomScreen : ComponentActivity() {
 
             androidx.compose.material.Surface(){
 
-                Scaffold(bott
+                Scaffold(bottomBar = {
+                  
+                 BottomNavScr
