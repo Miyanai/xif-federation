@@ -54,4 +54,8 @@ class BottomScreen : ComponentActivity() {
 
 
 
-             val navC
+             val navController = rememberNavController()
+
+
+
+            and
