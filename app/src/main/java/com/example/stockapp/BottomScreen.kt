@@ -63,4 +63,6 @@ class BottomScreen : ComponentActivity() {
                 Scaffold(bottomBar = {
                   
                  BottomNavScreen(navController = navController)
-       
+                }) {
+
+                    CompositionLocalProvider(L
