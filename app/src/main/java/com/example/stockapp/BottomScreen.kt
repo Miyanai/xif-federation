@@ -62,4 +62,5 @@ class BottomScreen : ComponentActivity() {
 
                 Scaffold(bottomBar = {
                   
-                 BottomNavScr
+                 BottomNavScreen(navController = navController)
+       
