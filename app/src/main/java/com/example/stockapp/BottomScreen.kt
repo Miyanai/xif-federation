@@ -65,4 +65,6 @@ class BottomScreen : ComponentActivity() {
                  BottomNavScreen(navController = navController)
                 }) {
 
-                    CompositionLocalProvider(L
+                    CompositionLocalProvider(LocalActivity provides this@BottomScreen) {
+
+           
