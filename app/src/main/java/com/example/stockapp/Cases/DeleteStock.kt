@@ -7,4 +7,5 @@ import javax.inject.Inject
 class DeleteStock @Inject constructor(
     private val repository: StockRepository
 ) {
-  
+    suspend operator fun invoke (stockEntity: StockEntity){
+       
