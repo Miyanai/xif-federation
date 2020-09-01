@@ -5,4 +5,6 @@ import com.example.stockapp.Repository.StockRepository
 import javax.inject.Inject
 
 class DeleteStock @Inject constructor(
-    
+    private val repository: StockRepository
+) {
+  
