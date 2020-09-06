@@ -8,4 +8,6 @@ class DeleteStock @Inject constructor(
     private val repository: StockRepository
 ) {
     suspend operator fun invoke (stockEntity: StockEntity){
-       
+        repository.deleteStock(stockEntity)
+    }
+}
