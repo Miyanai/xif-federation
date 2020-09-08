@@ -7,3 +7,7 @@ import javax.inject.Inject
 
 class GetStock @Inject constructor(
     private val repository: StockRepository
+) {
+
+    operator fun invoke(): List<StockEntity>{
+  
