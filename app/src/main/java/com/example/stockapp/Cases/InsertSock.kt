@@ -5,4 +5,5 @@ import com.example.stockapp.Repository.StockRepository
 import javax.inject.Inject
 
 
-class Inser
+class InsertSock @Inject constructor(
+    priva
