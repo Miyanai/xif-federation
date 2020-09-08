@@ -5,4 +5,5 @@ import com.example.stockapp.Repository.StockRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-class GetStock @Inject const
+class GetStock @Inject constructor(
+    private val repository: StockRepository
