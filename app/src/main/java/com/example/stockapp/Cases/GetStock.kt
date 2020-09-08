@@ -10,4 +10,8 @@ class GetStock @Inject constructor(
 ) {
 
     operator fun invoke(): List<StockEntity>{
-  
+        return repository.getStock()
+    }
+
+
+}
