@@ -6,4 +6,6 @@ import javax.inject.Inject
 
 
 class InsertSock @Inject constructor(
-    priva
+    private val repository: StockRepository
+) {
+    suspend operator 
