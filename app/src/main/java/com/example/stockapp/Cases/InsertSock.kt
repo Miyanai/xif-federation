@@ -8,4 +8,5 @@ import javax.inject.Inject
 class InsertSock @Inject constructor(
     private val repository: StockRepository
 ) {
-    suspend operator 
+    suspend operator fun invoke (stockEntity: StockEntity){
+        repository.inse
