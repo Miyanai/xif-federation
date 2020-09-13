@@ -9,4 +9,6 @@ class InsertSock @Inject constructor(
     private val repository: StockRepository
 ) {
     suspend operator fun invoke (stockEntity: StockEntity){
-        repository.inse
+        repository.insertStock(stockEntity)
+    }
+}
