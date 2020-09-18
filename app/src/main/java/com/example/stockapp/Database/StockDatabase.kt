@@ -5,4 +5,4 @@ import androidx.room.Database
 import androidx.room.RenameTable
 import androidx.room.RoomDatabase
 
-@Database(entit
+@Database(entities = [StockEntity::class], version = 2, exportSchema =
