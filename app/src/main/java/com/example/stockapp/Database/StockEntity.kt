@@ -1,4 +1,5 @@
 package com.example.stockapp.Database
 
 import android.location.Location
-imp
+import androidx.room.ColumnInfo
+import androidx.room.D
