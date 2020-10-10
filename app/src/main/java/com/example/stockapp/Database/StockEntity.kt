@@ -4,4 +4,6 @@ import android.location.Location
 import androidx.room.ColumnInfo
 import androidx.room.Delete
 import androidx.room.Entity
-import androidx
+import androidx.room.Insert
+import androidx.room.PrimaryKey
+import androidx.
