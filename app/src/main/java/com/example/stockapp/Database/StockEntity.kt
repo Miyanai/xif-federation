@@ -10,4 +10,7 @@ import androidx.room.Query
 import androidx.room.Update
 import kotlinx.coroutines.flow.Flow
 
-@Entity(tableNam
+@Entity(tableName = "Stock")
+data class StockEntity(
+
+    @
