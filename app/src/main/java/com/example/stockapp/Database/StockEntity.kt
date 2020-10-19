@@ -13,4 +13,6 @@ import kotlinx.coroutines.flow.Flow
 @Entity(tableName = "Stock")
 data class StockEntity(
 
+    @PrimaryKey(autoGenerate = true) var id: Int = 0,
+
     @
