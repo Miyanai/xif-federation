@@ -15,4 +15,5 @@ data class StockEntity(
 
     @PrimaryKey(autoGenerate = true) var id: Int = 0,
 
-    @
+    @ColumnInfo(name = "stockLocation")
+    var stockLocation: 
