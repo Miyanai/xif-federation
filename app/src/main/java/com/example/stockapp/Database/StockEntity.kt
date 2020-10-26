@@ -19,4 +19,7 @@ data class StockEntity(
     var stockLocation: String,
 
     @ColumnInfo(name= "stockName")
-    var st
+    var stockName: String,
+
+    @ColumnInfo(name = "barcode")
+    
