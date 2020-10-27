@@ -22,4 +22,7 @@ data class StockEntity(
     var stockName: String,
 
     @ColumnInfo(name = "barcode")
-    
+    var barcode: String,
+
+
+)
