@@ -55,3 +55,26 @@ fun BottomNavScreen (navController: NavController) {
             onClick = { navController.navigate( "Reports")},
             label = { Text(text = "Reports") },
             icon = { Icon(
+                painterResource( id = R.drawable.ic_baseline_bar_chart_24),
+                contentDescription = null,
+                tint = Color.Magenta)
+            },
+
+            )
+
+        BottomNavigationItem(selected = currentDestination?.route == "Settings" ,
+            onClick = { navController.navigate( "Settings")},
+            label = { Text(text = "Settings") },
+            icon = { Icon(
+                painterResource( R.drawable.ic_baseline_settings_24),
+                contentDescription = null,
+                tint = Color.Magenta)
+            },
+
+            )
+
+
+
+    }
+
+}
