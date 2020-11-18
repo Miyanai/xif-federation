@@ -5,4 +5,4 @@ import android.content.pm.PackageManager
 import android.graphics.drawable.Icon
 import android.util.Log
 import android.util.Size
-import an
+import androidx.activity.compose.rememberLauncherForActivityR
