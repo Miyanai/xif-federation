@@ -7,4 +7,6 @@ import android.util.Log
 import android.util.Size
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.camera.core.C
+import androidx.camera.core.CameraSelector
+import androidx.camera.core.ImageAnalysis
+import an
