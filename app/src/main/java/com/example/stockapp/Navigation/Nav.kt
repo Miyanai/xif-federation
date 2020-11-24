@@ -9,4 +9,4 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageAnalysis
-import an
+import androidx.camera.lifecycle.ProcessCameraProvider
