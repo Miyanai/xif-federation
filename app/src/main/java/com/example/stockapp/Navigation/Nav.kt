@@ -13,4 +13,5 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.fou
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundatio
