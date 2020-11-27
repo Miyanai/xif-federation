@@ -14,4 +14,5 @@ import androidx.camera.view.PreviewView
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundatio
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.
