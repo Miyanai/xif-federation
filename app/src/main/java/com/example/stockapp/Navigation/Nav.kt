@@ -36,4 +36,5 @@ import androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner
 import androidx.navigation.*
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.currentBack
+import androidx.navigation.compose.currentBackStackEntryAsState
+import androidx.navigation.compose.reme
