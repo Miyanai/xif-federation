@@ -41,4 +41,5 @@ import androidx.navigation.compose.rememberNavController
 import com.example.stockapp.R
 import com.example.stockapp.ViewModel.StockViewModel
 import com.example.stockapp.ui.theme.BarScanner
-impor
+import com.example.stockapp.ui.theme.Reports
+import com.examp
