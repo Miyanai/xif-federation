@@ -39,4 +39,5 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.stockapp.R
-import c
+import com.example.stockapp.ViewModel.StockViewModel
+impor
