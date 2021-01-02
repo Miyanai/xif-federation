@@ -43,4 +43,5 @@ import com.example.stockapp.ViewModel.StockViewModel
 import com.example.stockapp.ui.theme.BarScanner
 import com.example.stockapp.ui.theme.Reports
 import com.example.stockapp.ui.theme.Scan
-import com.example.stockapp
+import com.example.stockapp.ui.theme.Stock
+import com.example.sto
