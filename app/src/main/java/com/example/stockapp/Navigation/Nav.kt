@@ -42,4 +42,5 @@ import com.example.stockapp.R
 import com.example.stockapp.ViewModel.StockViewModel
 import com.example.stockapp.ui.theme.BarScanner
 import com.example.stockapp.ui.theme.Reports
-import com.examp
+import com.example.stockapp.ui.theme.Scan
+import com.example.stockapp
