@@ -49,4 +49,8 @@ import com.example.stockapp.ui.theme.ui.Settings
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.newSingleThreadContext
 import java.util.concurrent.Executors
-imp
+import java.util.jar.Manifest
+
+
+
+@Compos
