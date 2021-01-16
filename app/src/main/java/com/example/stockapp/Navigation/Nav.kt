@@ -46,4 +46,5 @@ import com.example.stockapp.ui.theme.Scan
 import com.example.stockapp.ui.theme.Stock
 import com.example.stockapp.ui.theme.ui.BarCodeScreen
 import com.example.stockapp.ui.theme.ui.Settings
-import kotlinx.corou
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.newSingle
