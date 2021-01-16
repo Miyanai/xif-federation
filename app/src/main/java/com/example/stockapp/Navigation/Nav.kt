@@ -45,4 +45,5 @@ import com.example.stockapp.ui.theme.Reports
 import com.example.stockapp.ui.theme.Scan
 import com.example.stockapp.ui.theme.Stock
 import com.example.stockapp.ui.theme.ui.BarCodeScreen
-import com.example
+import com.example.stockapp.ui.theme.ui.Settings
+import kotlinx.corou
