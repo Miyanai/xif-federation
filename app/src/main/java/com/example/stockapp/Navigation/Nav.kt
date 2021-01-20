@@ -53,4 +53,5 @@ import java.util.jar.Manifest
 
 
 
-@Compos
+@Composable
+fun Nav(navController: NavHostController) {
