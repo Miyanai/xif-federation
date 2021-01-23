@@ -57,4 +57,5 @@ import java.util.jar.Manifest
 fun Nav(navController: NavHostController) {
 
     val viewModelStoreOwner = checkNotNull(LocalViewModelStoreOwner.current) {
-        "No ViewModelStoreO
+        "No ViewModelStoreOwner was provided via LocalViewModelStoreOwner"
+  
