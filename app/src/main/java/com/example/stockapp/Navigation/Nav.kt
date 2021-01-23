@@ -56,4 +56,5 @@ import java.util.jar.Manifest
 @Composable
 fun Nav(navController: NavHostController) {
 
-    val viewModelStoreOwner = checkNotNull(LocalViewMo
+    val viewModelStoreOwner = checkNotNull(LocalViewModelStoreOwner.current) {
+        "No ViewModelStoreO
