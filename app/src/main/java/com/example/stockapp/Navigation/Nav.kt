@@ -58,4 +58,7 @@ fun Nav(navController: NavHostController) {
 
     val viewModelStoreOwner = checkNotNull(LocalViewModelStoreOwner.current) {
         "No ViewModelStoreOwner was provided via LocalViewModelStoreOwner"
+    }
+
+    NavHost(navController = navController,
   
