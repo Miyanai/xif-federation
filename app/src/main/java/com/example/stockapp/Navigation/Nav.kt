@@ -61,4 +61,7 @@ fun Nav(navController: NavHostController) {
     }
 
     NavHost(navController = navController,
-  
+        startDestination = "Stocks"
+    ){
+
+
