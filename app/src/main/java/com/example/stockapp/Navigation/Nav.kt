@@ -67,4 +67,10 @@ fun Nav(navController: NavHostController) {
 
 
         composable("Stocks"){
-           
+            Stock()
+
+        }
+
+        composable("Scan/{code}"){
+
+  
