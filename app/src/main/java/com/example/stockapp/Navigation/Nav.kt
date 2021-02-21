@@ -77,4 +77,9 @@ fun Nav(navController: NavHostController) {
 
 
 
-             Scan(navController
+             Scan(navController, code = getvalue)
+
+
+            }
+
+        composabl
