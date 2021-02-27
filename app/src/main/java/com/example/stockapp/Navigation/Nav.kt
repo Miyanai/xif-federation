@@ -87,4 +87,7 @@ fun Nav(navController: NavHostController) {
 
         }
 
-  
+        composable("Settings"){
+            Settings()
+
+   
