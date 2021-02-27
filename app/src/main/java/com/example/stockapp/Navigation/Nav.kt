@@ -82,4 +82,9 @@ fun Nav(navController: NavHostController) {
 
             }
 
-        composabl
+        composable("Reports"){
+            Reports()
+
+        }
+
+  
