@@ -93,4 +93,5 @@ fun Nav(navController: NavHostController) {
         }
 
         composable("BarCodeScreen"){
-  
+            BarCodeScreen(navController)
+      
