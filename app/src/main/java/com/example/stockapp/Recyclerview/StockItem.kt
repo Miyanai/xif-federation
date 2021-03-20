@@ -17,4 +17,8 @@ import androidx.compose.ui.text.font.FontWeight.Companion.Bold
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.stockapp.Database.StockEnti
+import com.example.stockapp.Database.StockEntity
+
+
+@Composable
+fun StockItem(stockEntity: StockEnti
