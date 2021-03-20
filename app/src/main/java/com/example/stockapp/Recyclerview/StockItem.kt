@@ -21,4 +21,6 @@ import com.example.stockapp.Database.StockEntity
 
 
 @Composable
-fun StockItem(stockEntity: StockEnti
+fun StockItem(stockEntity: StockEntity) {
+    Card(modifier = Modifier
+        .padding(8.d
