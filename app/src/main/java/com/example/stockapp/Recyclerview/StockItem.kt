@@ -25,4 +25,5 @@ fun StockItem(stockEntity: StockEntity) {
     Card(modifier = Modifier
         .padding(8.dp, 4.dp)
         .fillMaxWidth()
-        .height(150.dp).backgr
+        .height(150.dp).background(color = Color.DarkGray),
+    shape = RoundedCorn
