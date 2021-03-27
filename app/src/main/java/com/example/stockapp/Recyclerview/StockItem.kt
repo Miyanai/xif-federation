@@ -29,4 +29,5 @@ fun StockItem(stockEntity: StockEntity) {
     shape = RoundedCornerShape(8.dp),
         elevation = 4.dp
     ) {
-      and
+      androidx.compose.material.Surface() {
+      
