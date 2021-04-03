@@ -30,4 +30,6 @@ fun StockItem(stockEntity: StockEntity) {
         elevation = 4.dp
     ) {
       androidx.compose.material.Surface() {
-      
+          Column (
+              Modifier
+     
