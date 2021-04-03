@@ -32,4 +32,5 @@ fun StockItem(stockEntity: StockEntity) {
       androidx.compose.material.Surface() {
           Column (
               Modifier
-     
+                  .padding(4.dp)
+                  
