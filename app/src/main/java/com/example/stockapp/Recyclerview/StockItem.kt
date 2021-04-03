@@ -33,4 +33,4 @@ fun StockItem(stockEntity: StockEntity) {
           Column (
               Modifier
                   .padding(4.dp)
-                  
+                  .fillMaxSize().background(color = Color.Lig
