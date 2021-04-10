@@ -35,4 +35,6 @@ fun StockItem(stockEntity: StockEntity) {
                   .padding(4.dp)
                   .fillMaxSize().background(color = Color.LightGray),
           verticalArrangement = Arrangement.Center,
-          horizontalAlignment = Alignment.CenterHorizont
+          horizontalAlignment = Alignment.CenterHorizontally){
+
+              Text(text = stockEntity.stockName, modifi
