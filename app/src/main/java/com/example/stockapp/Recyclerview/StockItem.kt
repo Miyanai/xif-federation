@@ -37,4 +37,4 @@ fun StockItem(stockEntity: StockEntity) {
           verticalArrangement = Arrangement.Center,
           horizontalAlignment = Alignment.CenterHorizontally){
 
-              Text(text = stockEntity.stockName, modifier = Modifier.padding(5.dp), style = MaterialT
+              Text(text = stockEntity.stockName, modifier = Modifier.padding(5.dp), style = MaterialTheme.typography.caption, fontSize = 18.sp, fontWeigh
