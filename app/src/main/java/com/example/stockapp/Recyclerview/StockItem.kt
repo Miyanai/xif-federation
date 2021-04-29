@@ -39,4 +39,10 @@ fun StockItem(stockEntity: StockEntity) {
 
               Text(text = stockEntity.stockName, modifier = Modifier.padding(5.dp), style = MaterialTheme.typography.caption, fontSize = 18.sp, fontWeight = FontWeight.Bold)
               Text(text = stockEntity.stockLocation, modifier = Modifier.padding(5.dp), style = MaterialTheme.typography.caption, fontSize = 18.sp)
-              Text(text = stockEntity.barcode, modifier = Modifier.padding(5.dp), style = MaterialTheme.typography.caption, f
+              Text(text = stockEntity.barcode, modifier = Modifier.padding(5.dp), style = MaterialTheme.typography.caption, fontSize = 18.sp)
+
+          }
+
+      }
+
+    }
