@@ -9,4 +9,6 @@ interface StockRepository {
 
     suspend fun insertStock(stockEntity: StockEntity)
 
-    suspend
+    suspend fun deleteStock(stockEntity: StockEntity)
+
+    susp
