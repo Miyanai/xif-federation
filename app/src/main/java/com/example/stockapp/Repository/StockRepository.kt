@@ -7,4 +7,6 @@ import kotlinx.coroutines.flow.Flow
 interface StockRepository {
 
 
-    suspe
+    suspend fun insertStock(stockEntity: StockEntity)
+
+    suspend
