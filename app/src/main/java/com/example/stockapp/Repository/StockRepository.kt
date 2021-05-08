@@ -11,4 +11,4 @@ interface StockRepository {
 
     suspend fun deleteStock(stockEntity: StockEntity)
 
-    susp
+    suspend fun UpdateStock(stockEntity: St
