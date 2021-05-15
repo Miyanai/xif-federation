@@ -5,4 +5,4 @@ import com.example.stockapp.Database.StockEntity
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-clas
+class StockRepositoryList @Inject constructor (privat
