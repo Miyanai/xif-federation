@@ -10,4 +10,5 @@ class StockRepositoryList @Inject constructor (private val stockDatabase: StockD
         stockDatabase.stockDao().insertStock(stockEntity)
     }
 
-    override suspend fun 
+    override suspend fun deleteStock(stockEntity: StockEntity) {
+        stock
