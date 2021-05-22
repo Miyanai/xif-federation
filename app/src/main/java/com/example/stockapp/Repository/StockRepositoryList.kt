@@ -7,4 +7,7 @@ import javax.inject.Inject
 
 class StockRepositoryList @Inject constructor (private val stockDatabase: StockDatabase): StockRepository {
     override suspend fun insertStock(stockEntity: StockEntity) {
-        stockDatabase.stockDao().insertStock
+        stockDatabase.stockDao().insertStock(stockEntity)
+    }
+
+    override suspend fun 
