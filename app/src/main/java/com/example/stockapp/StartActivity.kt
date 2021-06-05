@@ -40,3 +40,38 @@ class StartActivity : ComponentActivity() {
         }
 
         }
+    }
+@Composable
+fun StartScreen() {
+
+    val context = LocalContext.current
+    LaunchedEffect(key1 = true){
+
+        delay(3000L)
+
+       context.startActivity(Intent(context, BottomScreen::class.java))
+    }
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.Magenta),
+        verticalArrangement =  Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally,
+
+        ) {
+
+        Text(text = "Inventory Manager", fontWeight = FontWeight.Bold,
+            fontSize = 35.sp,color = Color.White, fontFamily = FontFamily.Cursive,
+            modifier = Modifier.padding(20.dp)
+
+        )
+
+        Image(painter = painterResource(id = R.drawable.inventory),
+            contentDescription = "",
+            modifier = Modifier
+                .width(200.dp)
+                .height(200.dp))
+
+
+    }
+}
