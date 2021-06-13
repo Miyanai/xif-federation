@@ -6,4 +6,5 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.stockapp.Database.
+import com.example.stockapp.Database.StockEntity
+import com.example.stockapp.Database.S
