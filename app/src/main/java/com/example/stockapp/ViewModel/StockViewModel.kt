@@ -7,4 +7,5 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.stockapp.Database.StockEntity
-import com.example.stockapp.Database.S
+import com.example.stockapp.Database.StockEvent
+import com.example.stockapp.Database.StockSta
