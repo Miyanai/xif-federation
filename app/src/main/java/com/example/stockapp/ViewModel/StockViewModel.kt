@@ -9,4 +9,5 @@ import androidx.lifecycle.viewModelScope
 import com.example.stockapp.Database.StockEntity
 import com.example.stockapp.Database.StockEvent
 import com.example.stockapp.Database.StockState
-import com.example.stockapp.Repository.StockRep
+import com.example.stockapp.Repository.StockRepository
+import com.example.stockapp.Repository.Stoc
