@@ -12,4 +12,6 @@ import com.example.stockapp.Database.StockState
 import com.example.stockapp.Repository.StockRepository
 import com.example.stockapp.Repository.StockRepositoryList
 import com.google.android.gms.tasks.Task
-imp
+import dagger.hilt.android.lifecycle.HiltViewModel
+
+i
