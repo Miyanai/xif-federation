@@ -10,4 +10,6 @@ import com.example.stockapp.Database.StockEntity
 import com.example.stockapp.Database.StockEvent
 import com.example.stockapp.Database.StockState
 import com.example.stockapp.Repository.StockRepository
-import com.example.stockapp.Repository.Stoc
+import com.example.stockapp.Repository.StockRepositoryList
+import com.google.android.gms.tasks.Task
+imp
