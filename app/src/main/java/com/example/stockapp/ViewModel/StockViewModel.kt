@@ -22,4 +22,7 @@ import javax.inject.Inject
 
 
 @HiltViewModel
-class StockViewModel @Inject constructor(val stockRepositor
+class StockViewModel @Inject constructor(val stockRepository: StockRepository) : ViewModel() {
+
+//
+//    
