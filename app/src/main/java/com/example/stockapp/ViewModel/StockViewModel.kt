@@ -21,4 +21,5 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 
-@HiltViewMo
+@HiltViewModel
+class StockViewModel @Inject constructor(val stockRepositor
