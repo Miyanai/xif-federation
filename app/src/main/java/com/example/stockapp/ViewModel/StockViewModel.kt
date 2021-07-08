@@ -25,4 +25,4 @@ import javax.inject.Inject
 class StockViewModel @Inject constructor(val stockRepository: StockRepository) : ViewModel() {
 
 //
-//    
+//       val stockData = MutableStateFlow(StockEntity(stockLocation = ""
