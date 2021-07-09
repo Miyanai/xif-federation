@@ -26,4 +26,4 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
 
 //
 //       val stockData = MutableStateFlow(StockEntity(stockLocation = "", stockName = "", barcode = ""))
-//        va
+//        val state: StateFlow<StockEntity> = stockData.asStateFlo
