@@ -30,4 +30,6 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
 //
 //init {
 //
-//    viewModelScope.launch(
+//    viewModelScope.launch(Dispatchers.IO){
+//
+//        stockRepository.insertS
