@@ -39,4 +39,4 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
 //}
 
 
-    p
+    private var _stockLocationText = MutableStateFlow(nu
