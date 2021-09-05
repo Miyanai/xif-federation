@@ -40,4 +40,6 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
 
 
     private var _stockLocationText = MutableStateFlow(null as String?)
-    val stockLocationText: StateFlow<String?> = _
+    val stockLocationText: StateFlow<String?> = _stockLocationText
+
+    private var _stockNameText = Mutabl
