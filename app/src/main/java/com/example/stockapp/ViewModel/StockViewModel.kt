@@ -45,4 +45,5 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
     private var _stockNameText = MutableStateFlow(null as String?)
     val stockNameText: StateFlow<String?> = _stockNameText
 
-    private var _barCode = MutableStateFlow(null as St
+    private var _barCode = MutableStateFlow(null as String?)
+    val barCode: StateFlow<
