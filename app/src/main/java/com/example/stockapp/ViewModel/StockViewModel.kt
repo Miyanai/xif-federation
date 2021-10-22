@@ -49,4 +49,7 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
     val barCode: StateFlow<String?> = _barCode
 
     private var _stocks = MutableStateFlow(emptyList<StockEntity>())
-    val stoc
+    val stocks: StateFlow<List<StockEntity>> = _stocks
+
+
+    fun on
