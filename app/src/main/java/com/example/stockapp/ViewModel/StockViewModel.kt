@@ -52,4 +52,4 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
     val stocks: StateFlow<List<StockEntity>> = _stocks
 
 
-    fun on
+    fun onStockLocationTextChange(location: String?) = viewMode
