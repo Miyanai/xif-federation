@@ -52,4 +52,5 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
     val stocks: StateFlow<List<StockEntity>> = _stocks
 
 
-    fun onStockLocationTextChange(location: String?) = viewMode
+    fun onStockLocationTextChange(location: String?) = viewModelScope.launch {
+        _stockLocationText.value = lo
