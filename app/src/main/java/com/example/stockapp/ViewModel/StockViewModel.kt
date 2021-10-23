@@ -56,4 +56,5 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
         _stockLocationText.value = location
     }
 
-    fun onStockNameTextChange(name
+    fun onStockNameTextChange(name: String?) = viewModelScope.launch {
+        _stockNameTe
