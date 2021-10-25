@@ -60,4 +60,4 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
         _stockNameText.value = name
     }
 
-    fun onBarCodeC
+    fun onBarCodeChange(barCode: String?) = viewModelScope.launc
