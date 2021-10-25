@@ -64,4 +64,6 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
         _barCode.value = barCode
     }
 
-    fun onEve
+    fun onEvent(event: StockEvent) {
+        when (event) {
+     
