@@ -57,4 +57,7 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
     }
 
     fun onStockNameTextChange(name: String?) = viewModelScope.launch {
-        _stockNameTe
+        _stockNameText.value = name
+    }
+
+    fun onBarCodeC
