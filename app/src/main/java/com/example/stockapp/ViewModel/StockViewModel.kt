@@ -67,4 +67,5 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
     fun onEvent(event: StockEvent) {
         when (event) {
             is StockEvent.DeleteStock -> {
-          
+                viewModelScope.launch {
+                    stoc
