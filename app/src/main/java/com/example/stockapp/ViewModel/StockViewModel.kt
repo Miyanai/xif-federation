@@ -72,4 +72,5 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
                 }
             }
             is StockEvent.InsertStock -> {
-                viewModelScope.la
+                viewModelScope.launch {
+                    stockRepository.in
