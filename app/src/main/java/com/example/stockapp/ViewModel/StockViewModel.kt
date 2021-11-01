@@ -75,4 +75,8 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
                 viewModelScope.launch {
                     stockRepository.insertStock(event.stockEntity)
                 }
- 
+            }
+        }
+    }
+
+    fun deleteStock(
