@@ -84,4 +84,4 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
         stockRepository.deleteStock(stockEntity)
     }
 
-  
+    fun updateStock(stockEntity: StockEntity) = viewModelScope.laun
