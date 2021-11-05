@@ -89,4 +89,5 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
         stockRepository.UpdateStock(stockEntity)
     }
 
-    fun getStock() = viewModelScop
+    fun getStock() = viewModelScope.launch {
+        _stocks.value = stockRepository.
