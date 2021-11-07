@@ -96,4 +96,5 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
 
     fun insertStock(stockEntity: StockEntity) = viewModelScope.launch {
         stockRepository.insertStock(stockEntity)
-        // on in
+        // on insert stock clear fields -- NOTE
+        _stockNameTe
