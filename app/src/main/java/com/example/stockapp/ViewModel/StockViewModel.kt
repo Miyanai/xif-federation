@@ -99,4 +99,7 @@ class StockViewModel @Inject constructor(val stockRepository: StockRepository) :
         // on insert stock clear fields -- NOTE
         _stockNameText.value = null
         _stockLocationText.value = null
-        _
+        _barCode.value = null
+    }
+
+}
