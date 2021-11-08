@@ -73,3 +73,46 @@ class BarScanner(context: Context, navController: NavController): ImageAnalysis.
 
             scanner.process(image).addOnSuccessListener{
                 barcodes ->
+
+              for (barcode in barcodes){
+
+                  val bounds = barcode.boundingBox
+                  val corners = barcode.cornerPoints
+
+
+                  barcode?.rawValue?.let {
+                          code ->
+
+                      Toast.makeText(context, code, Toast.LENGTH_LONG).show()
+
+                      navController!!.navigate("Scan/$code")
+
+
+                  }
+
+
+
+              }
+
+
+            }.addOnFailureListener{
+                exception ->
+
+                Toast.makeText(context,"Error: " + exception.message, Toast.LENGTH_SHORT ).show()
+
+            }.addOnCompleteListener{
+
+            }
+
+
+        }
+    }
+
+}
+
+interface scanCode{
+    fun setText(code: String){
+
+    }
+}
+
