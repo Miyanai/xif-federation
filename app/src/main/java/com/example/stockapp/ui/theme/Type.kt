@@ -13,4 +13,6 @@ val Typography = Typography(
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp
     )
-    /* Other default text style
+    /* Other default text styles to override
+    button = TextStyle(
+    
