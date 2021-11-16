@@ -18,4 +18,6 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.W500,
         fontSize = 14.sp
-    
+    ),
+    caption = TextStyle(
+        fontFamily
