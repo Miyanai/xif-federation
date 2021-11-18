@@ -85,3 +85,55 @@ fun BarCodeScreen (navController: NavController){
 
 
         cameraProvider.unbindAll()
+        cameraProvider.bindToLifecycle(
+            lifecycleOwner,
+            cameraSelector,
+            preview,
+            imageCapture, imageAnalyzer
+        )
+
+        preview.setSurfaceProvider(previewView.surfaceProvider)
+
+
+    }, ContextCompat.getMainExecutor(context))
+
+    Box(contentAlignment = Alignment.BottomCenter, modifier = Modifier.fillMaxSize()) {
+        AndroidView({previewView}, modifier = Modifier.fillMaxSize())
+
+        IconButton(
+            modifier = Modifier.padding(bottom = 80.dp),
+            onClick = {
+
+
+            },
+
+            content = {
+                Icon(
+                    painterResource(id = R.drawable.ic_baseline_camera_alt_24),
+                    contentDescription = "",
+                    tint = Color.Magenta,
+                    modifier = Modifier
+                        .size(80.dp)
+                        .padding(1.dp)
+                        .border(10.dp, Color.White, CircleShape)
+                )
+            }
+            )
+
+
+
+    }
+}
+
+//fun ScanBarCode (
+//    imageCapture: ImageCapture,
+//c){
+//
+//    val name = SimpleDateFormat( "yyyy-MM-dd-HH-mm-ss-SSS", Locale.US)
+//        .format(System.currentTimeMillis())
+//
+//    val contentValues = ContentValues().apply {
+//        put(MediaStore.MediaColumns.DISPLAY_NAME, name)
+//        put(MediaStore.MediaColumns.MIME_TYPE, "image/jpeg")
+//        if(Build.VERSION.SDK_INT > Build.VERSION_CODES.P) {
+//            put(MediaStore.Images.Media.RELATIVE_PATH, "Pictures/CameraX-Image")
