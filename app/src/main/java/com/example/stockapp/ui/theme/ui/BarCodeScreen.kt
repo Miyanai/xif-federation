@@ -44,3 +44,44 @@ import androidx.navigation.NavController
 import com.example.stockapp.R
 import com.example.stockapp.ui.theme.BarScanner
 import java.io.File
+import java.text.SimpleDateFormat
+import java.util.*
+import java.util.concurrent.Executors
+
+
+@Composable
+fun BarCodeScreen (navController: NavController){
+
+    val context = LocalContext.current
+    val lifecycleOwner = LocalLifecycleOwner.current
+    val cameraProviderFuture = ProcessCameraProvider.getInstance(context)
+
+
+    val preview = Preview.Builder()
+        .build()
+
+    val previewView = remember {
+        PreviewView(context)
+    }
+
+
+    cameraProviderFuture.addListener({
+
+        val cameraProvider = cameraProviderFuture.get()
+        val imageCapture  = ImageCapture.Builder().build()
+
+        val cameraExecutor = Executors.newSingleThreadExecutor()
+
+        val imageAnalyzer = ImageAnalysis.Builder().build().also {
+
+            it.setAnalyzer(cameraExecutor, BarScanner(context, navController))
+
+        }
+
+
+        val cameraSelector = CameraSelector.Builder()
+            .requireLensFacing(CameraSelector.LENS_FACING_BACK)
+            .build()
+
+
+        cameraProvider.unbindAll()
