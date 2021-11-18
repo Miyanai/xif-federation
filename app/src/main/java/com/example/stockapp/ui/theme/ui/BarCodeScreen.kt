@@ -137,3 +137,29 @@ fun BarCodeScreen (navController: NavController){
 //        put(MediaStore.MediaColumns.MIME_TYPE, "image/jpeg")
 //        if(Build.VERSION.SDK_INT > Build.VERSION_CODES.P) {
 //            put(MediaStore.Images.Media.RELATIVE_PATH, "Pictures/CameraX-Image")
+//        }
+//    }
+//
+//
+//  val photoFile = File("/sdcard/sample.jpg")
+//
+//    val outputFileOptions = ImageCapture.OutputFileOptions.Builder(contentResolver,
+//        MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
+//        contentValues).build()
+//
+//
+//    imageCapture.takePicture(outputFileOptions, cameraExecutor,
+//        object : ImageCapture.OnImageSavedCallback {
+//            override fun onError(error: ImageCaptureException)
+//            {
+//             Toast.makeText(context, error.message, Toast.LENGTH_SHORT)
+//            }
+//            override fun onImageSaved(outputFileResults: ImageCapture.OutputFileResults) {
+//                val savedUri = Uri.fromFile(File("/sdcard/sample.jpg"))
+//                CapturedImage(savedUri)
+//            }
+//        })
+//}
+
+
+
