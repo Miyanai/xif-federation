@@ -10,4 +10,5 @@ import androidx.compose.ui.Modifier
 @Composable
 fun Reports () {
 
-    Box(modifier = Mo
+    Box(modifier = Modifier.fillMaxSize(),
+        contentAlignment = A
