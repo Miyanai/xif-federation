@@ -11,4 +11,6 @@ import androidx.compose.ui.Modifier
 fun Reports () {
 
     Box(modifier = Modifier.fillMaxSize(),
-        contentAlignment = A
+        contentAlignment = Alignment.Center
+    ) {
+        Text(text = "Reports"
