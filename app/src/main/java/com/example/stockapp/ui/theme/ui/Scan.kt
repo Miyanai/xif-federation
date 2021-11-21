@@ -80,3 +80,62 @@ fun Scan (navController: NavController, code: String? = null, stockViewModel: St
         }
     )
 
+
+    LaunchedEffect(key1 = true){
+        activityResultLauncher.launch(Manifest.permission.CAMERA)
+    }
+
+
+
+    val stockNameText by stockViewModel.stockNameText.collectAsState()
+    val stockLocationText by stockViewModel.stockLocationText.collectAsState()
+    val barCode by stockViewModel.barCode.collectAsState()
+
+
+    Log.e(TAG, "Scan: the current value of location is $stockLocationText")
+    Log.e(TAG, "Scan: the current value of name is $stockNameText")
+    Log.e(TAG, "Scan: the current value of bar code is $barCode")
+
+    Box(
+        modifier = Modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center,
+
+        ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .fillMaxHeight()
+                .background(Color.White),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
+
+
+        ) {
+            OutlinedTextField(
+                value = stockNameText ?: "",
+
+                onValueChange = stockViewModel::onStockNameTextChange,
+
+                label = { Text(text = "Stock Name") },
+                placeholder = { Text(text = "Stock Name") },
+                modifier = Modifier.padding(15.dp)
+            )
+            Spacer(modifier = Modifier.height(10.dp))
+
+            OutlinedTextField(
+                value = stockLocationText ?: "",
+
+                onValueChange = stockViewModel::onStockLocationTextChange,
+
+                label = { Text(text = "Stock Location") },
+                placeholder = { Text(text = "Stock Location") },
+                modifier = Modifier.padding(15.dp)
+            )
+
+            Spacer(modifier = Modifier.height(10.dp))
+            OutlinedTextField(
+                value = code.toString(),
+
+                onValueChange = stockViewModel::onBarCodeChange,
+
+                label = { Text(text = "Barcode") },
