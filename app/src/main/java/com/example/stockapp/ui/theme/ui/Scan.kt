@@ -188,3 +188,54 @@ fun Scan (navController: NavController, code: String? = null, stockViewModel: St
                         Toast.makeText(context, "stockNameText is empty", Toast.LENGTH_SHORT).show()
                         return@Button
                     }
+
+                    if (stockLocationText == null || stockLocationText?.isBlank() == true) {
+                        Toast.makeText(context, "stockLocationText is empty", Toast.LENGTH_SHORT).show()
+                        return@Button
+                    }
+
+                    if (barCode == null || barCode?.isBlank() == true) {
+                        Toast.makeText(context, "barCode is empty", Toast.LENGTH_SHORT).show()
+                        return@Button
+                    }
+
+
+                    //stockViewModel.onEvent(StockEvent.InsertStock( StockEntity(stockLocation = stockLocationText, stockName= stockNameText, barcode = "code")))
+
+                    stockViewModel.insertStock(
+                        StockEntity(
+                            stockLocation = stockLocationText ?: "",
+                            stockName = stockNameText ?: "",
+                            barcode = code.toString()
+                        )
+                    )
+
+                    Toast.makeText(context, "added stock!", Toast.LENGTH_SHORT).show()
+
+                    navController.navigate("Stocks")
+
+                },
+
+                shape = CutCornerShape(10),
+                colors = ButtonDefaults.buttonColors(backgroundColor = Color.Magenta)
+            ) {
+
+                Image(
+                    painterResource(id = R.drawable.ic_baseline_qr_code_scanner_24),
+                    contentDescription = "",
+                    modifier = Modifier
+                        .size(20.dp)
+                        .height(15.dp)
+                        .padding(15.dp)
+                )
+                Text(text = "Add Stock", Modifier.padding(start = 20.dp))
+            }
+
+
+        }
+
+    }
+}
+
+
+
