@@ -139,3 +139,52 @@ fun Scan (navController: NavController, code: String? = null, stockViewModel: St
                 onValueChange = stockViewModel::onBarCodeChange,
 
                 label = { Text(text = "Barcode") },
+                placeholder = { Text(text = "Barcode") },
+                modifier = Modifier
+                    .padding(15.dp)
+                    .focusable(enabled = false)
+            )
+
+            Spacer(modifier = Modifier.height(10.dp))
+            Button(
+
+                onClick = {
+                    when(PackageManager.PERMISSION_GRANTED){
+                        ContextCompat.checkSelfPermission(
+                            context, Manifest.permission.CAMERA
+                        ) ->{
+
+                            navController.navigate("BarCodeScreen")
+                        }
+                        else ->{
+                            activityResultLauncher.launch(Manifest.permission.CAMERA)
+                        }
+                    }
+
+
+
+                },
+                shape = CutCornerShape(10),
+                colors = ButtonDefaults.buttonColors(backgroundColor = Color.Magenta)
+            )
+
+            {
+                Image(
+                    painterResource(id = R.drawable.ic_baseline_qr_code_scanner_24),
+                    contentDescription = "",
+                    modifier = Modifier
+                        .size(20.dp)
+                        .height(15.dp)
+                        .padding(15.dp)
+                )
+                Text(text = "Scan Stock Barcode", Modifier.padding(start = 20.dp))
+
+
+            }
+            Button(
+                onClick = {
+
+                    if (stockNameText == null || stockNameText?.isBlank() == true) {
+                        Toast.makeText(context, "stockNameText is empty", Toast.LENGTH_SHORT).show()
+                        return@Button
+                    }
