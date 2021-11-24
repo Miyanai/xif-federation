@@ -32,3 +32,58 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.stockapp.Database.StockEntity
 import com.example.stockapp.Recyclerview.StockItem
 import com.example.stockapp.ViewModel.StockViewModel
+
+@Composable
+fun Stock() {
+
+    val stockViewModel: StockViewModel = hiltViewModel()
+    val stocks by stockViewModel.stocks.collectAsState()
+
+    val dummyStocks = listOf(
+        StockEntity(
+            id = 1,
+            stockLocation = "USSD Launching",
+            stockName = "GGL",
+            barcode = "482y4ndjkwhds",
+        ),
+        StockEntity(
+            id = 2,
+            stockLocation = "USSD Launching",
+            stockName = "GGL",
+            barcode = "482y4ndjkwhds",
+        ),
+        StockEntity(
+            id = 3,
+            stockLocation = "USSD Launching",
+            stockName = "GGL",
+            barcode = "482y4ndjkwhds",
+        ),
+        StockEntity(
+            id = 4,
+            stockLocation = "USSD Launching",
+            stockName = "GGL",
+            barcode = "482y4ndjkwhds",
+        ),
+        StockEntity(
+            id = 5,
+            stockLocation = "USSD Launching",
+            stockName = "GGL",
+            barcode = "482y4ndjkwhds",
+        ),
+        StockEntity(
+            id = 6,
+            stockLocation = "USSD Launching",
+            stockName = "GGL",
+            barcode = "482y4ndjkwhds",
+        ),
+    )
+
+    LaunchedEffect(Unit) {
+        stockViewModel.getStock()
+    }
+
+    LaunchedEffect(stocks) {
+        stockViewModel.getStock()
+    }
+
+    Box(modifier = Modifier.fillMaxSize()) {
