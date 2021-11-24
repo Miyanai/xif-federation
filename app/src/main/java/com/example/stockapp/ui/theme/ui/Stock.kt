@@ -87,3 +87,32 @@ fun Stock() {
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
+
+        Column(modifier = Modifier, horizontalAlignment = Alignment.CenterHorizontally) {
+            Text(
+                text = "Stocks",
+                fontSize = 30.sp,
+                color = Color.Magenta,
+                style = TextStyle(fontWeight = FontWeight.Bold, fontFamily = FontFamily.Cursive)
+            )
+
+            Spacer(modifier = Modifier.height(10.dp))
+
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(10.dp),
+                state = rememberLazyListState(),
+            ) {
+
+                items(stocks) { item ->
+                    StockItem(item)
+                }
+            }
+        }
+
+
+
+    }
+
+}
