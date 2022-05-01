@@ -7,4 +7,5 @@
 -->
 <full-backup-content>
     <!--
-   <include domain="shar
+   <include domain="sharedpref" path="."/>
+   <exclude domain="sharedpref" path
