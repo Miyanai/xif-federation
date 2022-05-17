@@ -12,4 +12,6 @@
     </cloud-backup>
     <!--
     <device-transfer>
-        <include 
+        <include .../>
+        <exclude .../>
+    </device-t
