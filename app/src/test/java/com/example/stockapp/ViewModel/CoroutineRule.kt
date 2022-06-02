@@ -6,4 +6,6 @@ import kotlinx.coroutines.test.TestCoroutineScope
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.setMain
 import org.junit.rules.TestWatcher
-impor
+import org.junit.runner.Description
+
+class CoroutineR
