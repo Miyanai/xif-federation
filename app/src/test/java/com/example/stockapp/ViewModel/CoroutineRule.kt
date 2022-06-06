@@ -12,4 +12,5 @@ class CoroutineRule(
 
     private val dispatcher: TestCoroutineDispatcher = TestCoroutineDispatcher()
 ) : TestWatcher(), TestCoroutineScope by TestCoroutineScope(dispatcher) {
-    override fun starting(description
+    override fun starting(description: Description?) {
+        super.starting(descript
