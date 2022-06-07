@@ -17,4 +17,4 @@ class CoroutineRule(
         Dispatchers.setMain(dispatcher)
     }
 
-    over
+    override fun finished(description: Description?) 
