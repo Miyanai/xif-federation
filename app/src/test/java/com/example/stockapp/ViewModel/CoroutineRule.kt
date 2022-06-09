@@ -17,4 +17,6 @@ class CoroutineRule(
         Dispatchers.setMain(dispatcher)
     }
 
-    override fun finished(description: Description?) 
+    override fun finished(description: Description?) {
+        super.finished(description)
+        cleanupT
