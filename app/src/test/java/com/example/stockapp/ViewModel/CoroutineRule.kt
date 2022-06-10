@@ -19,4 +19,6 @@ class CoroutineRule(
 
     override fun finished(description: Description?) {
         super.finished(description)
-        cleanupT
+        cleanupTestCoroutines()
+        Dispatchers.resetMain()
+ 
