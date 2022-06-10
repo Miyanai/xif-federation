@@ -21,4 +21,5 @@ class CoroutineRule(
         super.finished(description)
         cleanupTestCoroutines()
         Dispatchers.resetMain()
- 
+    }
+}
