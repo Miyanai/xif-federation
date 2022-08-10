@@ -37,4 +37,7 @@ while [ -h "$PRG" ] ; do
 done
 SAVED="`pwd`"
 cd "`dirname \"$PRG\"`/" >/dev/null
-APP_HOME="`pw
+APP_HOME="`pwd -P`"
+cd "$SAVED" >/dev/null
+
+APP_NAME="Grad
