@@ -53,4 +53,10 @@ warn () {
     echo "$*"
 }
 
-die 
+die () {
+    echo
+    echo "$*"
+    echo
+    exit 1
+}
+
