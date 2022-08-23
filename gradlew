@@ -80,4 +80,4 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPA
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.ja
