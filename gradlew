@@ -160,4 +160,6 @@ if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then
     done
     case $i in
         0) set -- ;;
-        1) se
+        1) set -- "$args0" ;;
+        2) set -- "$args0" "$args1" ;;
+  
