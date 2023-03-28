@@ -1,1 +1,3 @@
-pluginManage
+pluginManagement {
+    repositories {
+        gradlePlugi
