@@ -11,3 +11,6 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+}
+rootProject.name = "StockApp"
+include ':app'
